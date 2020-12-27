@@ -1,0 +1,12 @@
+[loadbalancer]
+
+13.235.33.139 ansible_user=ec2-user ansible_private_key=/root/awskeyname.pem ansible_connection=ssh
+
+[webserver]
+
+35.154.103.94 ansible_user=ec2-user ansible_private_key=/root/awskeyname.pem ansible_connection=ssh
+
+13.234.213.152 ansible_user=ec2-user ansible_private_key=/root/awskeyname.pem ansible_connection=ssh
+
+
+13.233.58.41 ansible_user=ec2-user ansible_private_key=/root/awskeyname.pem ansible_connection=ssh
